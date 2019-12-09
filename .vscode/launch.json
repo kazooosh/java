@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - holyDay",
+            "request": "launch",
+            "mainClass": "holyDay",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - gradeMedian",
+            "request": "launch",
+            "mainClass": "gradeMedian",
+            "projectName": "java_21fcc2a1"
+        }
+    ]
+}
