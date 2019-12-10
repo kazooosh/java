@@ -12,27 +12,31 @@ public class simpleCalc {
         int secondInput = myObj.nextInt();
         myObj.close();
 
-        if (operator == '+') {
-            int sum = firstInput + secondInput;
-            System.out.println("Ergebnis: " + sum);
-        }
-        if (operator == '-') {
-            int difference = firstInput - secondInput;
-            System.out.println("Ergebnis: " + difference);
-        }
-        if (operator == '*') {
-            int product = firstInput * secondInput;
-            System.out.println("Ergebnis: " + product);
-        }
-        if (operator == '/') {
-            if (secondInput != 0) {
-                int quotient = firstInput / secondInput;
-                System.out.println("Ergebnis: " + quotient);
+
+        if (operator == '+' || operator == '-' || operator == '*' || operator == '/') {
+            if (operator == '+') {
+                int sum = firstInput + secondInput;
+                System.out.println("Ergebnis: " + sum);
             }
-            else {
-                System.out.println("Dividieren durch 0 ist nicht möglich.");
+            if (operator == '-') {
+                int difference = firstInput - secondInput;
+                System.out.println("Ergebnis: " + difference);
+            }
+            if (operator == '*') {
+                int product = firstInput * secondInput;
+                System.out.println("Ergebnis: " + product);
+            }
+            if (operator == '/') {
+                if (secondInput != 0) {
+                    int quotient = firstInput / secondInput;
+                    System.out.println("Ergebnis: " + quotient);
+                }
+                else {
+                    System.out.println("Dividieren durch 0 ist nicht möglich.");
+                }
             }
         }
+
         else {
             System.out.println("Kein gültiger Rechenoperator.");
         }
