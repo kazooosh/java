@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - savingsCalculator",
+            "request": "launch",
+            "mainClass": "savingsCalculator",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - holyDay",
             "request": "launch",
             "mainClass": "holyDay",
