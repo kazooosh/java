@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - simpleCalc",
+            "request": "launch",
+            "mainClass": "simpleCalc",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inputMax",
+            "request": "launch",
+            "mainClass": "inputMax",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - savingsCalculator",
             "request": "launch",
             "mainClass": "savingsCalculator",

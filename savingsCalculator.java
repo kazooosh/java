@@ -14,7 +14,7 @@ public class savingsCalculator {
 
         if (specialArticles != 0) {
             specialArticles  *= 1.1;
-            sum += specialArticles;
+            sum = specialArticles;
         }
         if (sum <= 20) {
             sum +=  3.5;

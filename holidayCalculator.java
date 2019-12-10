@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class holyDay {
+public class holidayCalculator {
     public static void main(String[] args) {
-        int holydays = 30;
+        int holidays = 30;
 
         Scanner myObj = new Scanner(System.in);
 
@@ -17,11 +17,11 @@ public class holyDay {
         }
         else {
             if (age < 18) {
-                holydays += 5;
+                holidays += 5;
             }
             else {
                 if (age >= 52) {
-                    holydays += 2;
+                    holidays += 2;
                 }
             }
             System.out.println("Eingabe des Behinderungsgrades in Prozent:");
@@ -35,12 +35,12 @@ public class holyDay {
 
             else {
                 if (disability >= 50) {
-                    holydays += 5;
+                    holidays += 5;
                 }
             }
         }
         myObj.close();
 
-        System.out.println(holydays + " Tage.");
+        System.out.println(holidays + " Tage.");
     }
 }
