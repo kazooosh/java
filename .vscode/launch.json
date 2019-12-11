@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - rectangleCalc",
+            "request": "launch",
+            "mainClass": "rectangleCalc",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - portoCalc",
+            "request": "launch",
+            "mainClass": "portoCalc",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - notenrechner",
             "request": "launch",
             "mainClass": "notenrechner",
