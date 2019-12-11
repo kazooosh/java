@@ -3,15 +3,15 @@ import java.lang.Math;
 
 public class inputMax {
     public static void main(String[] args) {
-        Scanner myObj = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Geben sie die erste Zahl ein:");
-        int firstInput = myObj.nextInt();
-        System.out.println("DGeben sie die zweite Zahl ein:");
-        int secondInput = myObj.nextInt();
-        System.out.println("DGeben sie die dritte Zahl ein:");
-        int thirdInput = myObj.nextInt();
-        myObj.close();
+        System.out.print("Geben sie die erste Zahl ein: ");
+        int firstInput = input.nextInt();
+        System.out.print("DGeben sie die zweite Zahl ein: ");
+        int secondInput = input.nextInt();
+        System.out.print("DGeben sie die dritte Zahl ein: ");
+        int thirdInput = input.nextInt();
+        input.close();
 
         int max = Math.max(Math.max(firstInput, secondInput), thirdInput);
 
