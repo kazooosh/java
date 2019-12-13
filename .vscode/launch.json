@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - numberGuess",
+            "request": "launch",
+            "mainClass": "numberGuess",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - money",
+            "request": "launch",
+            "mainClass": "money",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - immigration",
+            "request": "launch",
+            "mainClass": "immigration",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - dayCheck",
+            "request": "launch",
+            "mainClass": "dayCheck",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - median",
+            "request": "launch",
+            "mainClass": "median",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - gradesIHK",
             "request": "launch",
             "mainClass": "gradesIHK",
