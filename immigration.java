@@ -11,6 +11,7 @@ public class immigration {
             String name = input.nextLine();
             // String firstLetter = name.substring(0, 1).toUpperCase();
             char firstLetter = name.charAt(0);
+            // System.out.println(firstLetter);
             if (firstLetter >= 'A' && firstLetter <= 'E' || firstLetter >= 'a' && firstLetter <= 'e' ) {
                 employee = "Frau Hoffenheim";
                 room = 101;

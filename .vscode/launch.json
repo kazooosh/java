@@ -2,6 +2,74 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - astrology",
+            "request": "launch",
+            "mainClass": "astrology",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - scannerCheckout",
+            "request": "launch",
+            "mainClass": "scannerCheckout",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - letterGrades",
+            "request": "launch",
+            "mainClass": "letterGrades",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - stringUppercase",
+            "request": "launch",
+            "mainClass": "stringUppercase",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - stringFormat",
+            "request": "launch",
+            "mainClass": "stringFormat",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - bloodAlc",
+            "request": "launch",
+            "mainClass": "bloodAlc",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - heritage",
+            "request": "launch",
+            "mainClass": "heritage",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fishlake",
+            "request": "launch",
+            "mainClass": "fishlake",
+            "projectName": "java_21fcc2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numberGuess",
+            "request": "launch",
+            "mainClass": "numberGuess"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - immigration",
+            "request": "launch",
+            "mainClass": "immigration"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - numberGuess",
             "request": "launch",
             "mainClass": "numberGuess",
