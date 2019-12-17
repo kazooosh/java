@@ -34,6 +34,8 @@ public class immigration {
             }
             else {
                 System.out.println("Kein akzeptierter Buchstabe.");
+                // Programm beenden
+                return;
             }
             String flavor = "Ihr Berater ist " + employee + ", Zimmer " + room;
             System.out.println(flavor);
