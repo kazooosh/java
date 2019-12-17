@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class heritage {
+public class inheritance {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Startkapital: ");
