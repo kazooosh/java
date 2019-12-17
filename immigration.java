@@ -16,19 +16,19 @@ public class immigration {
                 employee = "Frau Hoffenheim";
                 room = 101;
             }
-            if (firstLetter >= 'F' && firstLetter <= 'I' || firstLetter >= 'f' && firstLetter <= 'i' ) {
+            else if (firstLetter >= 'F' && firstLetter <= 'I' || firstLetter >= 'f' && firstLetter <= 'i' ) {
                 employee = "Herr Müller";
                 room = 102;
             }
-            if (firstLetter >= 'J' && firstLetter <= 'O' || firstLetter >= 'j' && firstLetter <= 'o' ) {
+            else if (firstLetter >= 'J' && firstLetter <= 'O' || firstLetter >= 'j' && firstLetter <= 'o' ) {
                 employee = "Frau Tunichgut";
                 room = 103;
             }
-            if (firstLetter >= 'P' && firstLetter <= 'T' || firstLetter >= 'p' && firstLetter <= 't' ) {
+            else if (firstLetter >= 'P' && firstLetter <= 'T' || firstLetter >= 'p' && firstLetter <= 't' ) {
                 employee = "Herr Grün";
                 room = 104;
             }
-            if (firstLetter >= 'U' && firstLetter <= 'Z' || firstLetter >= 'u' && firstLetter <= 'z' ) {
+            else if (firstLetter >= 'U' && firstLetter <= 'Z' || firstLetter >= 'u' && firstLetter <= 'z' ) {
                 employee = "Frau Kahrs";
                 room = 105;
             }
