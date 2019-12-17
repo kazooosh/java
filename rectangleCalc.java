@@ -10,9 +10,6 @@ public class rectangleCalc {
 
             System.out.println("erste Seite:");
             double a = myObj.nextDouble();
-            if (a == 1) {
-                i = false;
-            }
             System.out.println("zweite Seite:");
             double b = myObj.nextDouble();
 
